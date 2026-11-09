@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>الحرية الإعدادية بنين | أيمن شامان</title>
+<style>
+:root{--bg:#102b22;--panel:#183d30;--panel2:#28513d;--text:#fffef4;--muted:#e2f2d8;--cyan:#25e6ff;--green:#55ff36;--yellow:#ffe52e;--red:#ff304f;--purple:#d65bff;--blue:#328dff;--orange:#ff9c28}
+*{box-sizing:border-box}body{margin:0;background:
+radial-gradient(ellipse at 12% 8%,#ffcf4a55 0 7%,transparent 23%),
+radial-gradient(ellipse at 88% 15%,#d65bff44 0 8%,transparent 25%),
+linear-gradient(180deg,#66d9ff 0%,#b9f4ff 26%,#8ee36c 58%,#267b43 100%);
+font-family:Tahoma,Arial,sans-serif;color:var(--text);min-height:100vh;position:relative}
+body:before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.95;
+background-image:
+url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 900 600'%3E%3Ccircle cx='740' cy='90' r='52' fill='%23ffe65b'/%3E%3Cg fill='%232b9c50'%3E%3Cpath d='M40 470V250Q-5 205 45 165Q15 100 90 85Q160 105 135 170Q195 220 135 260V470Z'/%3E%3Cpath d='M770 500V300Q720 250 770 210Q740 135 820 125Q890 145 860 215Q920 265 860 310V500Z'/%3E%3C/g%3E%3Cg fill='%2356d65b'%3E%3Ccircle cx='80' cy='160' r='62'/%3E%3Ccircle cx='120' cy='205' r='58'/%3E%3Ccircle cx='805' cy='205' r='72'/%3E%3Ccircle cx='850' cy='250' r='55'/%3E%3C/g%3E%3Cg fill='%23ffb13b'%3E%3Ccircle cx='220' cy='500' r='22'/%3E%3Ccircle cx='670' cy='520' r='27'/%3E%3C/g%3E%3Cg fill='%23ff6cae'%3E%3Ccircle cx='180' cy='550' r='13'/%3E%3Ccircle cx='720' cy='565' r='15'/%3E%3C/g%3E%3Cpath d='M0 510Q170 450 330 515T650 510T900 495V600H0Z' fill='%233b9e4b'/%3E%3C/svg%3E");
+background-size:cover;background-position:center;filter:saturate(1.2)}.wrap{max-width:1000px;margin:auto;padding:18px 14px 45px}
+.supervisor{position:fixed;top:12px;right:12px;z-index:9999;direction:rtl;text-align:center;font-weight:900;font-size:clamp(17px,4vw,21px);color:#fff;background:linear-gradient(110deg,#ff1744,#ff00c8,#6a00ff,#00cfff);padding:12px 48px 12px 19px;border-radius:18px 7px 18px 18px;margin:0;width:max-content;max-width:calc(100vw - 24px);box-shadow:0 0 0 3px #ffffffa8,0 7px 22px #28105dcc;border:2px solid #fff;animation:supervisorPulse 1.7s infinite}
+
+@keyframes supervisorPulse{0%,100%{filter:brightness(1);box-shadow:0 0 0 3px #ffffffa8,0 7px 22px #28105dcc}50%{filter:brightness(1.28);box-shadow:0 0 0 5px #fff7,0 8px 28px #ff3d81}}
+to{translate:7px -50%}}header{text-align:center;padding:22px 8px 15px;background:linear-gradient(120deg,rgba(255,48,119,.94),rgba(117,45,255,.94),rgba(0,171,255,.94));border:3px solid #fff34a;border-radius:26px;box-shadow:0 8px 24px #14502d66;margin-bottom:14px}.tag{display:inline-block;padding:8px 16px;border-radius:50px;background:#172b56;border:1px solid #4263a5;color:var(--cyan);font-weight:bold}h1{font-size:clamp(27px,5vw,43px);margin:15px 0 7px;text-shadow:0 0 18px #3988ff66}.by{font-size:20px;font-weight:bold;color:var(--yellow)}.intro{color:#f2ffe8;line-height:1.8;margin:12px auto;max-width:680px;text-shadow:0 2px 3px #123}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:14px 0}.stat,.panel{background:linear-gradient(135deg,rgba(5,188,125,.97),rgba(16,92,177,.96),rgba(117,36,190,.95));border:3px solid #faff55;border-radius:22px;box-shadow:0 10px 28px #164b3455;backdrop-filter:blur(5px)}.stat{text-align:center;padding:12px;background:linear-gradient(135deg,#ff3d9a,#873cff,#168dff);border:2px solid #fff56b}.stat b{display:block;font-size:25px;color:var(--cyan)}.stat span{font-size:12px;color:var(--muted)}
+.panel{padding:17px;margin:13px 0}.game-tabs{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}.tab{padding:12px 5px;border-radius:15px;border:2px solid #fff7;background:linear-gradient(135deg,#ff9f1c,#ff5f6d);color:#24122a;font-weight:900;cursor:pointer;box-shadow:0 5px 0 #773b39}.tab.active{background:linear-gradient(120deg,#fff23b,#71ff5c);color:#14321d;border:2px solid white;box-shadow:0 0 20px #dfff4c}
+.filters{display:flex;gap:9px;flex-wrap:wrap;align-items:center;justify-content:space-between}.filters div{display:flex;gap:8px;flex-wrap:wrap}select,button,input{font:inherit;border-radius:12px;padding:11px 13px;border:2px solid #d7ff9c;background:#244c3c;color:white}button{cursor:pointer;font-weight:bold}button:hover{filter:brightness(1.15);transform:translateY(-1px)}select{max-width:100%}
+.diff{display:inline-block;border-radius:30px;padding:6px 12px;font-size:13px;font-weight:900}.easy{background:#55ff36;color:#052315;box-shadow:0 0 12px #55ff3680}.medium{background:#ffe52e;color:#302500;box-shadow:0 0 12px #ffe52e80}.hard{background:#ff304f;color:white;box-shadow:0 0 12px #ff304f90}
+.gamebox{min-height:350px}.gamehead{display:flex;justify-content:space-between;align-items:center;gap:8px;color:var(--muted);font-size:13px}.word{font-size:clamp(34px,8vw,55px);font-weight:900;text-align:center;margin:18px 0 5px;direction:ltr;color:#fff;text-shadow:0 0 20px #28d7ff55}.meaning{text-align:center;color:var(--muted);margin:6px 0 18px}.choices{display:grid;grid-template-columns:1fr 1fr;gap:10px}.choice{min-height:58px;background:linear-gradient(135deg,#ff36a5,#8b42ff,#258cff);border:2px solid #fff36a;color:white;font-weight:bold}.choice.good{background:#0c603f;border-color:var(--green)}.choice.bad{background:#741e36;border-color:var(--red)}.choice:disabled{opacity:1}
+.feedback{text-align:center;min-height:28px;margin:15px 0;font-weight:bold}.goodtxt{color:var(--green)}.badtxt{color:#ff7185}.actions{display:flex;justify-content:center;gap:9px;flex-wrap:wrap}.primary{background:linear-gradient(100deg,#28e7ff,#3988ff);color:#071126;border:0}.purple{background:var(--purple);color:#210d32;border:0}.yellow{background:var(--yellow);color:#2b2500;border:0}
+.progress{height:9px;background:#293454;border-radius:99px;overflow:hidden;margin-top:13px}.bar{height:100%;background:linear-gradient(90deg,var(--green),var(--cyan),var(--purple));width:0}
+.pairs{display:grid;grid-template-columns:1fr 1fr;gap:10px}.pair{min-height:65px;background:linear-gradient(135deg,#ffb52e,#ff6a7b);color:#32152a;border:2px solid #ffe7a3;font-weight:bold}.pair.selected{outline:3px solid var(--yellow);background:#39406a}.pair.matched{background:#0c603f;border-color:var(--green);opacity:.75}
+input.answerinput{display:block;width:min(100%,420px);margin:15px auto;text-align:center;font-size:22px;direction:ltr}.flash{max-width:520px;margin:15px auto;padding:25px;border-radius:20px;background:linear-gradient(135deg,#ff7a59,#bd4dff,#287fff);text-align:center;border:2px solid #fff2}.flash .word{margin:0 0 10px}.timer{font-size:26px;color:var(--yellow);font-weight:bold;text-align:center}.note{text-align:center;color:var(--muted);font-size:12px;line-height:1.8;margin:18px 4px}
+@media(max-width:620px){.game-tabs{grid-template-columns:repeat(2,1fr)}.game-tabs .tab:last-child{grid-column:span 2}.choices{grid-template-columns:1fr}.stats{gap:6px}.stat{padding:10px 3px}.stat b{font-size:21px}.filters{align-items:stretch}.filters div{width:100%}.filters select{flex:1}.pairs{gap:7px}.pair{padding:9px 5px;font-size:13px}}
+
+.arcade-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:11px;margin-top:16px}
+.arcade-card{min-height:112px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;color:#172039;border:2px solid #fff9;border-radius:18px;font-size:25px;font-weight:900;box-shadow:0 6px 0 #17203955;transition:.15s}
+.arcade-card:nth-child(5n+1){background:linear-gradient(135deg,#fff500,#ff8a00)}
+.arcade-card:nth-child(5n+2){background:linear-gradient(135deg,#ff2d70,#ff00b8);color:white}
+.arcade-card:nth-child(5n+3){background:linear-gradient(135deg,#00f5ff,#176bff)}
+.arcade-card:nth-child(5n+4){background:linear-gradient(135deg,#d9ff00,#00ef82)}
+.arcade-card:nth-child(5n){background:linear-gradient(135deg,#f24dff,#762cff);color:white}
+.arcade-card small{font-size:12px;font-weight:700;text-align:center;line-height:1.5}
+.arcade-card b{font-size:16px}
+.arcade-card:active{transform:translateY(3px);box-shadow:0 2px 0 #17203955}
+.arcade-play{margin-top:12px;padding:15px;border-radius:18px;background:linear-gradient(145deg,#174c3b,#203c69);border:2px solid #c5ff66}
+.arcade-play h3{text-align:center;color:#ffe52e}
+.arcade-option{background:linear-gradient(120deg,#348dff,#8c53e8);border:2px solid #fff8;color:white;min-height:52px}
+.arcade-tile{background:#ffe52e;color:#18233c;border:2px solid white;margin:4px;direction:ltr}
+.arcade-selected{outline:3px solid #55ff36}
+#arcade{margin-top:18px}
+@media(max-width:560px){.arcade-grid{grid-template-columns:1fr 1fr}.arcade-card{min-height:105px;padding:8px 4px}.supervisor{font-size:14px}}
+
+</style></head>
+<body><div class="wrap">
+<header><div class="supervisor">تحت إشراف الأستاذة دعاء</div><span class="tag">🚀 العب وتعلّم الإنجليزي</span><h1>الحرية الإعدادية بنين</h1><div class="by">إعداد: أيمن شامان</div><p class="intro">خمسة ألعاب تفاعلية لتقوية كلماتك الإنجليزية! اختَر الوحدة والمستوى، اجمع النقاط، وخلّي حصيلتك اللغوية أقوى 💥</p></header>
+<section class="stats"><div class="stat"><b id="score">0</b><span>⭐ مجموع النقاط</span></div><div class="stat"><b id="correct">0</b><span>✅ إجابات صحيحة</span></div><div class="stat"><b id="played">0</b><span>🎮 جولات مكتملة</span></div></section>
+<section class="panel filters"><div><select id="unit"><option value="all">كل الوحدات</option><option value="1">Unit 1 – Gen Alpha</option><option value="2">Unit 2 – My Digital Footprint</option><option value="3">Unit 3 – Facing Challenges</option></select><select id="level"><option value="all">كل المستويات</option><option value="easy">🟢 سهل</option><option value="medium">🟡 متوسط</option><option value="hard">🔴 صعب</option></select></div><button id="reset" class="yellow">↻ تصفير النقاط</button></section>
+<nav class="panel game-tabs"><button class="tab active" data-game="quiz">🎯 خمن المعنى</button><button class="tab" data-game="match">🧩 طابق الكلمات</button><button class="tab" data-game="spell">⌨️ اكتب الكلمة</button><button class="tab" data-game="flash">🃏 بطاقات الحفظ</button><button class="tab" data-game="speed">⚡ تحدي السرعة</button></nav>
+<main class="panel gamebox" id="game"></main>
+
+<section class="panel" id="arcade">
+ <h2 style="text-align:center;color:#ffe52e;margin:4px 0 8px">🎪 مدينة الألعاب الإنجليزية</h2>
+ <p class="meaning">10 ألعاب جديدة — قواعد، جمل، مواقف، ترتيب، سرعة واستماع. مو مجرد تخمين معاني!</p>
+ <div class="arcade-grid">
+  <button class="arcade-card" data-extra="builder">🧱<b>1. ابنِ الجملة</b><small>ركّب الكلمات لتكوين جملة صحيحة</small></button>
+  <button class="arcade-card" data-extra="fixer">🛠️<b>2. صلّح الجملة</b><small>اكتشف الخطأ النحوي وأصلحه</small></button>
+  <button class="arcade-card" data-extra="dialogue">🗣️<b>3. محادثة المواقف</b><small>اختر الرد المناسب في موقف يومي</small></button>
+  <button class="arcade-card" data-extra="maze">🧭<b>4. متاهة الأزمنة</b><small>اختر الطريق حسب زمن الجملة</small></button>
+  <button class="arcade-card" data-extra="typing">⌨️<b>5. سباق الكتابة</b><small>اكتب جملة كاملة قبل انتهاء الوقت</small></button>
+  <button class="arcade-card" data-extra="memory">🃏<b>6. ذاكرة الجمل</b><small>اكشف وطابق الجملة مع معناها</small></button>
+  <button class="arcade-card" data-extra="story">📚<b>7. رتّب القصة</b><small>رتّب أحداث قصة قصيرة</small></button>
+  <button class="arcade-card" data-extra="traffic">🚦<b>8. إشارات الأزمنة</b><small>وجّه الجمل إلى الماضي أو الحاضر أو المستقبل</small></button>
+  <button class="arcade-card" data-extra="punct">✍️<b>9. شرطة علامات الترقيم</b><small>اختر الكتابة الصحيحة للجملة</small></button>
+  <button class="arcade-card" data-extra="listen">🎧<b>10. اسمع وافهم</b><small>استمع إلى جملة وأجب عن سؤال عنها</small></button>
+ </div>
+ <div class="actions" style="margin-top:14px"><button class="primary" id="backWords">العودة لألعاب الكلمات</button></div>
+</section>
+
+<p class="note">ملاحظة: أضفت كلمات تدريبية مرتبطة بموضوعات الوحدات الثلاث، لكن يلزم مراجعتها مع صفحات كتاب المدرسة للتأكد من مطابقتها حرفياً للمنهج. أرسل صور صفحات Vocabulary وسأضيف كلمات الكتاب نفسها.</p>
+</div>
+<script>
+const words=[
+['generation','جيل',1,'easy'],['technology','التكنولوجيا',1,'easy'],['digital','رقمي',1,'easy'],['device','جهاز',1,'easy'],['creative','مبدع',1,'easy'],['invent','يخترع',1,'medium'],['invention','اختراع',1,'medium'],['communicate','يتواصل',1,'medium'],['communication','تواصل',1,'hard'],['influence','تأثير',1,'hard'],['generation gap','فجوة الأجيال',1,'medium'],['modern','حديث',1,'easy'],['ancient','قديم',1,'medium'],['future','المستقبل',1,'easy'],['skill','مهارة',1,'easy'],['talent','موهبة',1,'medium'],['innovation','ابتكار',1,'hard'],['artificial intelligence','الذكاء الاصطناعي',1,'hard'],['virtual','افتراضي',1,'medium'],['program','برنامج',1,'easy'],
+['footprint','بصمة / أثر',2,'medium'],['privacy','الخصوصية',2,'medium'],['password','كلمة المرور',2,'easy'],['protect','يحمي',2,'easy'],['personal','شخصي',2,'easy'],['information','معلومات',2,'easy'],['website','موقع إلكتروني',2,'easy'],['online','متصل بالإنترنت',2,'easy'],['account','حساب',2,'medium'],['secure','آمن',2,'medium'],['security','الأمان',2,'medium'],['identity','هوية',2,'medium'],['digital footprint','البصمة الرقمية',2,'hard'],['upload','يرفع ملفاً',2,'medium'],['download','ينزّل ملفاً',2,'medium'],['data','بيانات',2,'medium'],['public','عام',2,'easy'],['private','خاص',2,'medium'],['cyberbullying','التنمر الإلكتروني',2,'hard'],['responsible','مسؤول',2,'hard'],
+['challenge','تحدٍّ',3,'easy'],['confident','واثق',3,'medium'],['improve','يحسّن / يطوّر',3,'medium'],['achieve','يحقق',3,'medium'],['brave','شجاع',3,'easy'],['solution','حل',3,'medium'],['determined','مصمم / لديه إصرار',3,'hard'],['effort','مجهود',3,'medium'],['success','نجاح',3,'easy'],['failure','فشل',3,'medium'],['determination','إصرار / عزيمة',3,'hard'],['goal','هدف',3,'easy'],['overcome','يتغلب على',3,'hard'],['experience','خبرة / تجربة',3,'medium'],['patient','صبور',3,'medium'],['teamwork','العمل الجماعي',3,'medium'],['decision','قرار',3,'medium'],['opportunity','فرصة',3,'hard'],['believe','يؤمن / يصدق',3,'easy'],['practice','يتدرب / ممارسة',3,'easy']
+].filter(x=>x[0]!=='努力');
+const $=id=>document.getElementById(id);let game='quiz',deck=[],pos=0,score=0,correct=0,played=0,locked=false,selected=null,matched=0,timer=null,timeLeft=30,speedScore=0;
+const levels={easy:'سهل',medium:'متوسط',hard:'صعب'},unitNames={1:'Unit 1 – Gen Alpha',2:'Unit 2 – My Digital Footprint',3:'Unit 3 – Facing Challenges'};
+function shuffle(a){return [...a].sort(()=>Math.random()-.5)}
+function pool(){return shuffle(words.filter(w=>($('unit').value==='all'||w[2]==$('unit').value)&&($('level').value==='all'||w[3]===$('level').value)))}
+function stats(){$('score').textContent=score;$('correct').textContent=correct;$('played').textContent=played}
+function add(w){score+=w[3]==='easy'?10:w[3]==='medium'?15:20;correct++;stats()}
+function setDeck(){deck=pool();pos=0;locked=false}
+function diff(w){return `<span class="diff ${w[3]}">${w[3]==='hard'?'🔴 ':w[3]==='medium'?'🟡 ':'🟢 '}${levels[w[3]]}</span>`}
+function shell(title,sub){$('game').innerHTML=`<div class="gamehead"><span>${title}</span><span>${sub||''}</span></div><div class="progress"><div class="bar" id="bar"></div></div><div id="stage"></div>`}
+function progress(){let b=$('bar');if(b)b.style.width=(deck.length?Math.min(100,pos/deck.length*100):0)+'%'}
+function feedback(t,good){let f=$('feedback');if(f){f.textContent=t;f.className='feedback '+(good?'goodtxt':'badtxt')}}
+function nextButton(){return '<div class="actions"><button class="primary" id="next">السؤال التالي ←</button></div>'}
+function finish(msg='خلصت الجولة!'){ $('game').innerHTML=`<div style="text-align:center;padding:45px 5px"><div style="font-size:55px">🏆</div><h2>${msg}</h2><p>أحسنت! نقاطك الحالية: <b style="color:var(--yellow)">${score}</b></p><button class="primary" id="again">العب مرة ثانية</button></div>`;$('again').onclick=launch;played++;stats()}
+function launch(){clearInterval(timer);setDeck();if(!deck.length){$('game').innerHTML='<h3>ما في كلمات بهذا الاختيار، جرّب مستوى أو وحدة ثانية.</h3>';return}if(game==='quiz')quiz();if(game==='match')match();if(game==='spell')spell();if(game==='flash')flash();if(game==='speed')speed()}
+function quiz(){if(pos>=deck.length){finish();return}locked=false;let w=deck[pos],opts=shuffle([w,...shuffle(deck.filter(x=>x[1]!==w[1])).slice(0,3)]);shell('🎯 خمن المعنى',`الكلمة ${pos+1} من ${deck.length}`);$('stage').innerHTML=`<div class="word">${w[0]}</div><div class="meaning">${unitNames[w[2]]} · ${diff(w)}<p>ما معنى هذه الكلمة؟</p></div><div class="choices" id="choices"></div><div id="feedback" class="feedback"></div><div class="actions"><button id="next" class="primary" style="display:none">التالي ←</button></div>`;opts.forEach(o=>{let b=document.createElement('button');b.className='choice';b.textContent=o[1];b.onclick=()=>{if(locked)return;locked=true;[...$('choices').children].forEach(x=>{x.disabled=true;if(x.textContent===w[1])x.classList.add('good')});if(o===w){add(w);feedback('إجابة صحيحة! ممتاز 🔥',true)}else{b.classList.add('bad');feedback('الإجابة الصحيحة: '+w[1],false)}$('next').style.display='inline-block'};$('choices').append(b)});$('next').onclick=()=>{pos++;progress();quiz()};}
+function match(){let set=shuffle(deck).slice(0,Math.min(6,deck.length));deck=set;pos=0;matched=0;let left=shuffle(set),right=shuffle(set);shell('🧩 طابق الكلمة مع معناها','اضغط على كلمتين متطابقتين');$('stage').innerHTML='<p class="meaning">اختَر كلمة بالإنجليزية ثم معناها بالعربية.</p><div class="pairs" id="pairs"></div><div id="feedback" class="feedback"></div><div class="actions"><button id="again" class="primary">خلط البطاقات</button></div>';let grid=$('pairs');[...left.map(w=>({id:w[0],label:w[0]})),...right.map(w=>({id:w[0],label:w[1]}))].sort(()=>Math.random()-.5).forEach(o=>{let b=document.createElement('button');b.className='pair';b.textContent=o.label;b.dataset.id=o.id;b.onclick=()=>{if(b.classList.contains('matched')||b===selected)return;if(!selected){selected=b;b.classList.add('selected')}else{let first=selected;selected=null;first.classList.remove('selected');if(first.dataset.id===b.dataset.id){first.classList.add('matched');b.classList.add('matched');matched++;let w=set.find(x=>x[0]===b.dataset.id);add(w);feedback('مطابقة صحيحة! 👏',true);if(matched===set.length){setTimeout(()=>finish('أكملت لعبة المطابقة!'),500)}}else{feedback('مو نفس المعنى، جرّب مرة ثانية',false);b.classList.add('selected');setTimeout(()=>b.classList.remove('selected'),350)}}};grid.append(b)});selected=null;$('again').onclick=launch}
+function spell(){if(pos>=deck.length){finish();return}let w=deck[pos];shell('⌨️ اكتب الكلمة','اكتب الترجمة الإنجليزية');$('stage').innerHTML=`<div class="word" style="font-size:27px">${w[1]}</div><div class="meaning">${diff(w)}<p>اكتب الكلمة الإنجليزية التي تعني ذلك:</p></div><input id="typed" class="answerinput" autocomplete="off" placeholder="English word"><div id="feedback" class="feedback"></div><div class="actions"><button class="primary" id="check">تحقق</button><button id="next" style="display:none">التالي ←</button></div>`;$('typed').focus();function check(){if(locked)return;let val=$('typed').value.trim().toLowerCase();if(!val)return;locked=true;if(val===w[0].toLowerCase()){add(w);feedback('ممتاز! كتابة صحيحة ✨',true)}else feedback('الصحيح: '+w[0],false);$('next').style.display='inline-block'}$('check').onclick=check;$('typed').onkeydown=e=>{if(e.key==='Enter')check()};$('next').onclick=()=>{pos++;spell()}}
+function flash(){if(pos>=deck.length){finish();return}let w=deck[pos];shell('🃏 بطاقات الحفظ',`بطاقة ${pos+1} من ${deck.length}`);$('stage').innerHTML=`<div class="flash"><div class="word">${w[0]}</div><div id="reveal" class="meaning">حاول تذكر المعنى قبل الكشف 👀</div><button id="show" class="yellow">اكشف المعنى</button></div><div class="actions"><button id="know" class="primary" style="display:none">عرفتها ✅</button><button id="learn" style="display:none">أحتاج أراجعها 🔁</button></div>`;$('show').onclick=()=>{$('reveal').textContent=w[1];$('know').style.display='inline-block';$('learn').style.display='inline-block';$('show').style.display='none'};$('know').onclick=()=>{add(w);pos++;flash()};$('learn').onclick=()=>{pos++;deck.push(w);flash()}}
+function speed(){deck=shuffle(deck).slice(0,Math.min(10,deck.length));pos=0;timeLeft=30;speedScore=0;speedQuestion()}
+function speedQuestion(){clearInterval(timer);if(pos>=deck.length||timeLeft<=0){finish('انتهى تحدي السرعة!');return}let w=deck[pos],opts=shuffle([w,...shuffle(deck.filter(x=>x[1]!==w[1])).slice(0,3)]);shell('⚡ تحدي السرعة',`السؤال ${pos+1} / ${deck.length}`);$('stage').innerHTML=`<div class="timer" id="clock">⏱️ ${timeLeft} ثانية</div><div class="word">${w[0]}</div><div class="meaning">${diff(w)}<p>اختر المعنى بسرعة!</p></div><div class="choices" id="choices"></div><div id="feedback" class="feedback"></div>`;opts.forEach(o=>{let b=document.createElement('button');b.className='choice';b.textContent=o[1];b.onclick=()=>{if(locked)return;locked=true;if(o===w){add(w);feedback('صح! أسرع من البرق ⚡',true)}else feedback('الصحيح: '+w[1],false);pos++;setTimeout(speedQuestion,450)};$('choices').append(b)});locked=false;timer=setInterval(()=>{timeLeft--;$('clock').textContent='⏱️ '+timeLeft+' ثانية';if(timeLeft<=0){clearInterval(timer);finish('انتهى الوقت!')}} ,1000)}
+document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{document.querySelector('.tab.active').classList.remove('active');b.classList.add('active');game=b.dataset.game;launch()});
+$('unit').onchange=launch;$('level').onchange=launch;$('reset').onclick=()=>{score=0;correct=0;played=0;stats();launch()};stats();launch();
+
+// ===== Ten additional English mini-games =====
+const extraData = {
+ builder:{title:'🧱 ابنِ الجملة',type:'builder',items:[
+  {parts:['She','goes','to','school','every','day','.'],order:['She','goes','to','school','every','day','.']},
+  {parts:['They','are','playing','football','now','.'],order:['They','are','playing','football','now','.']},
+  {parts:['I','visited','my','grandmother','yesterday','.'],order:['I','visited','my','grandmother','yesterday','.']}
+ ]},
+ fixer:{title:'🛠️ صلّح الجملة',type:'choice',items:[
+  {q:'He ___ to school every day.',opts:['go','goes','going'],a:'goes',why:'مع He نضيف s للفعل في المضارع البسيط.'},
+  {q:'They ___ watching TV now.',opts:['is','am','are'],a:'are',why:'مع They نستخدم are.'},
+  {q:'I ___ my homework yesterday.',opts:['do','did','does'],a:'did',why:'Yesterday تدل على الماضي.'}
+ ]},
+ dialogue:{title:'🗣️ محادثة المواقف',type:'choice',items:[
+  {q:'You meet your friend in the morning. What do you say?',opts:['Good morning!','Good night!','Goodbye!'],a:'Good morning!',why:'نقول Good morning في الصباح.'},
+  {q:'Someone says “Thank you”. You reply:',opts:['You are welcome.','I am ten.','Good evening.'],a:'You are welcome.',why:'هذا هو الرد الطبيعي على Thank you.'},
+  {q:'You want to ask for help politely:',opts:['Help me now!','Could you help me, please?','I no help.'],a:'Could you help me, please?',why:'Could you… please? طلب مهذب.'}
+ ]},
+ maze:{title:'🧭 متاهة الأزمنة',type:'choice',items:[
+  {q:'اختر بوابة الماضي: “We played tennis yesterday.”',opts:['PAST','PRESENT','FUTURE'],a:'PAST',why:'Played و yesterday يدلان على الماضي.'},
+  {q:'اختر بوابة الحاضر: “She reads every night.”',opts:['PAST','PRESENT','FUTURE'],a:'PRESENT',why:'Reads مع every night عادة متكررة.'},
+  {q:'اختر بوابة المستقبل: “I will travel tomorrow.”',opts:['PAST','PRESENT','FUTURE'],a:'FUTURE',why:'Will و tomorrow يدلان على المستقبل.'}
+ ]},
+ typing:{title:'⌨️ سباق الكتابة',type:'typing',items:[
+  {q:'اكتب الجملة كما هي:',a:'I can face challenges.'},
+  {q:'اكتب الجملة كما هي:',a:'We should help each other.'},
+  {q:'اكتب الجملة كما هي:',a:'Learning English is fun.'}
+ ]},
+ memory:{title:'🃏 ذاكرة الجمل',type:'memory',items:[
+  {en:'I am happy.',ar:'أنا سعيد.'},{en:'She likes reading.',ar:'هي تحب القراءة.'},{en:'We play together.',ar:'نحن نلعب معاً.'},{en:'Time is important.',ar:'الوقت مهم.'}
+ ]},
+ story:{title:'📚 رتّب القصة',type:'builder',items:[
+  {parts:['First,','I','woke','up.','Then,','I','had','breakfast.','Finally,','I','went','to','school.'],order:['First,','I','woke','up.','Then,','I','had','breakfast.','Finally,','I','went','to','school.']}
+ ]},
+ traffic:{title:'🚦 إشارات الأزمنة',type:'choice',items:[
+  {q:'The children are playing now. أي إشارة تناسبها؟',opts:['🟢 حاضر','🟡 ماضٍ','🔵 مستقبل'],a:'🟢 حاضر',why:'Are playing = مضارع مستمر.'},
+  {q:'Mona cooked dinner last night. أي إشارة؟',opts:['🟢 حاضر','🟡 ماضٍ','🔵 مستقبل'],a:'🟡 ماضٍ',why:'Cooked و last night يدلان على الماضي.'},
+  {q:'We will visit Luxor next week. أي إشارة؟',opts:['🟢 حاضر','🟡 ماضٍ','🔵 مستقبل'],a:'🔵 مستقبل',why:'Will و next week يدلان على المستقبل.'}
+ ]},
+ punct:{title:'✍️ شرطة علامات الترقيم',type:'choice',items:[
+  {q:'اختر الجملة المكتوبة بشكل صحيح:',opts:['where do you live?','Where do you live?','Where do you live.'],a:'Where do you live?',why:'نبدأ بحرف كبير ونضع علامة استفهام.'},
+  {q:'اختر الكتابة الصحيحة:',opts:['my name is ali.','My name is Ali.','My name is ali'],a:'My name is Ali.',why:'أول الجملة والأسماء تبدأ بحرف كبير.'},
+  {q:'اختر الجملة الصحيحة:',opts:['Wow! That is great.','wow that is great','Wow that is great'],a:'Wow! That is great.',why:'نستخدم حرفاً كبيراً وعلامة تعجب ونقطة.'}
+ ]},
+ listen:{title:'🎧 اسمع وافهم',type:'listen',items:[
+  {s:'Ali gets up at seven o’clock.',q:'When does Ali get up?',opts:['At six o’clock.','At seven o’clock.','At eight o’clock.'],a:'At seven o’clock.',why:'الجملة تقول إنه يستيقظ الساعة السابعة.'},
+  {s:'Sara goes to school by bus.',q:'How does Sara go to school?',opts:['By car.','On foot.','By bus.'],a:'By bus.',why:'Sara goes by bus.'},
+  {s:'Omar likes science because it is interesting.',q:'Why does Omar like science?',opts:['Because it is easy.','Because it is interesting.','Because it is boring.'],a:'Because it is interesting.',why:'ذكر أن العلوم ممتعة.'}
+ ]}
+};
+let extraMode=null, extraIndex=0, extraItem=null, extraBuilt=[], extraMatched=0, extraFlipped=[];
+function startExtra(mode){
+ clearInterval(timer);extraMode=mode;extraIndex=0;extraMatched=0;
+ $('game').scrollIntoView({behavior:'smooth',block:'start'});renderExtra();
+}
+function renderExtra(){
+ const d=extraData[extraMode];if(!d)return;
+ if(extraIndex>=d.items.length){$('game').innerHTML=`<div class="arcade-play" style="text-align:center"><h2>🏆 أحسنت! خلصت اللعبة</h2><p>جميل! جرّب لعبة ثانية من مدينة الألعاب.</p><button class="primary" onclick="document.getElementById('arcade').scrollIntoView({behavior:'smooth'})">اختيار لعبة ثانية</button></div>`;played++;stats();return}
+ extraItem=d.items[extraIndex];
+ $('game').innerHTML=`<div class="gamehead"><span>${d.title}</span><span>جولة ${extraIndex+1} من ${d.items.length}</span></div><div class="arcade-play" id="extraStage"></div><div class="actions"><button class="primary" id="extraBack">العودة إلى الألعاب</button></div>`;
+ $('extraBack').onclick=()=>$('arcade').scrollIntoView({behavior:'smooth',block:'start'});
+ const s=$('extraStage');
+ if(d.type==='builder'){
+  extraBuilt=[];let parts=shuffle([...extraItem.parts]);s.innerHTML=`<h3>${extraMode==='story'?'رتّب أحداث القصة لتصبح قصة صحيحة':'اضغط الكلمات بالترتيب لتكوين الجملة'}</h3><div class="meaning" id="built" style="min-height:45px;background:#ffffff18;padding:10px;border-radius:12px"></div><div id="tiles" style="text-align:center"></div><div class="actions"><button class="yellow" id="undo">تراجع</button><button class="primary" id="verify">تحقق</button></div><div class="feedback" id="extraFeedback"></div>`;
+  parts.forEach((part,i)=>{let b=document.createElement('button');b.className='arcade-tile';b.textContent=part;b.onclick=()=>{if(b.disabled)return;extraBuilt.push(part);b.disabled=true;$('built').textContent=extraBuilt.join(' ')};$('tiles').append(b)});
+  $('undo').onclick=()=>{let last=extraBuilt.pop();if(last!==undefined){$('built').textContent=extraBuilt.join(' ');[...$('tiles').children].find(b=>b.textContent===last&&b.disabled).disabled=false}};
+  $('verify').onclick=()=>{let ok=extraBuilt.join(' ')===extraItem.order.join(' ');$('extraFeedback').textContent=ok?'صحيح! ممتاز 🎉':'لسه الترتيب مو مضبوط، جرّب مرة ثانية.';if(ok){add({3:'easy'});setTimeout(()=>{extraIndex++;renderExtra()},900)}};
+ }else if(d.type==='typing'){
+  s.innerHTML=`<h3>${extraItem.q}</h3><div class="flash" style="font-size:23px;direction:ltr">${extraItem.a}</div><input id="extraInput" class="answerinput" placeholder="اكتب الجملة هنا" dir="ltr"><div class="actions"><button class="primary" id="verify">تحقق</button></div><div id="extraFeedback" class="feedback"></div>`;
+  $('verify').onclick=()=>{let ok=$('extraInput').value.trim().toLowerCase()===extraItem.a.toLowerCase();$('extraFeedback').textContent=ok?'كتابة ممتازة! 🏁':'راجع الحروف والمسافات وحاول ثانية.';if(ok){add({3:'medium'});setTimeout(()=>{extraIndex++;renderExtra()},900)}};
+ }else if(d.type==='memory'){
+  let cards=shuffle([...d.items.map(x=>({id:x.en,t:x.en})),...d.items.map(x=>({id:x.en,t:x.ar}))]);extraFlipped=[];extraMatched=0;
+  s.innerHTML='<h3>اكشف بطاقتين وحاول تطابق الجملة مع معناها</h3><div class="pairs" id="memoryGrid"></div><div id="extraFeedback" class="feedback"></div>';
+  cards.forEach(c=>{let b=document.createElement('button');b.className='pair';b.textContent='❔';b.dataset.id=c.id;b.dataset.text=c.t;b.onclick=()=>{if(b.classList.contains('matched')||extraFlipped.includes(b))return;b.textContent=c.t;extraFlipped.push(b);if(extraFlipped.length===2){let [a,z]=extraFlipped;if(a.dataset.id===z.dataset.id&&a.dataset.text!==z.dataset.text){a.classList.add('matched');z.classList.add('matched');extraMatched++;add({3:'medium'});$('extraFeedback').textContent='مطابقة صحيحة!';if(extraMatched===d.items.length)setTimeout(()=>{extraIndex++;renderExtra()},900)}else{setTimeout(()=>{a.textContent='❔';z.textContent='❔'},650)}extraFlipped=[]}};$('memoryGrid').append(b)});
+ }else{
+  if(d.type==='listen')s.innerHTML=`<h3>استمع للجملة ثم أجب</h3><div class="actions"><button class="yellow" id="speak">🔊 شغّل الصوت</button></div><p class="flash" dir="ltr">${extraItem.s}</p>`;
+  else s.innerHTML=`<h3>${extraItem.q}</h3>`;
+  let q=d.type==='listen'?extraItem.q:extraItem.q;
+  s.innerHTML+=`<h3>${q}</h3><div class="choices" id="extraChoices"></div><div id="extraFeedback" class="feedback"></div>`;
+  if(d.type==='listen'){$('speak').onclick=()=>{if('speechSynthesis'in window){speechSynthesis.cancel();let u=new SpeechSynthesisUtterance(extraItem.s);u.lang='en-US';speechSynthesis.speak(u)}else $('extraFeedback').textContent='ميزة الصوت غير مدعومة في هذا المتصفح.'};}
+  extraItem.opts.forEach(opt=>{let b=document.createElement('button');b.className='arcade-option';b.textContent=opt;b.onclick=()=>{let ok=opt===extraItem.a;$('extraFeedback').textContent=ok?'إجابة صحيحة! 🌟 '+extraItem.why:'حاول مرة أخرى. '+extraItem.why;$('extraFeedback').className='feedback '+(ok?'goodtxt':'badtxt');if(ok){[...$('extraChoices').children].forEach(x=>x.disabled=true);add({3:'medium'});setTimeout(()=>{extraIndex++;renderExtra()},1100)}};$('extraChoices').append(b)});
+ }
+}
+document.querySelectorAll('.arcade-card').forEach(b=>b.addEventListener('click',()=>startExtra(b.dataset.extra)));
+$('backWords').onclick=()=>{document.querySelector('.tab').click();$('game').scrollIntoView({behavior:'smooth'})};
+
+</script></body></html>
